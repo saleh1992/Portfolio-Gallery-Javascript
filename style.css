@@ -1,0 +1,59 @@
+.container {
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #f1f1f1;
+  padding: 8px 18px;
+}
+
+#allGallery {
+  margin-top: 10px;
+}
+
+.nature,
+.cars,
+.people {
+  display: flex;
+  justify-content: center;
+}
+
+#allGallery>div>div {
+  max-width: 100%;
+  background: white;
+  padding: 6px;
+  margin: 6px;
+}
+
+@media (max-width:450px) {
+  #allGallery>div>div {
+      font-size: 7px;
+  }
+}
+
+#allGallery img {
+  width: 100%;
+}
+
+.allbutton button {
+  width: 95px;
+  height: 45px;
+  background: white;
+  border: none;
+}
+@media (max-width:450px){
+  .allbutton {
+      text-align: center;
+  }
+}
+.allbutton button:hover {
+  background-color: #ddd;
+}
+
+.allbutton #active {
+  background-color: #666;
+  color: white;
+
+}
+
+#hidden {
+  display: none;
+}
